@@ -34,8 +34,9 @@
 }
 .inputbox{
 
-    padding: 8px 35px 8px 35px;
+    padding: 8px 35px 8px 12px;
 }
+
 button{
 
     padding: 8px 32px 8px 32px;
@@ -100,8 +101,8 @@ button{
         height: 400px;
         width: 400px;
         object-fit: cover;
-        margin-left: 150px;
-        margin-top: 50px;
+        margin-left: 70px;
+        margin-top: 120px;
         height: fit-content;
         padding-right: 130px;
     
