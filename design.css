@@ -145,10 +145,50 @@ button{
 }
 
 
+.section3{
+
+    background-color:  hsl(238, 22%, 44%);
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
+.ok1{
 
 
+    width: 350px;
+    margin-top: 10px;
+    color: white;
+}
+.ok1>h4{
 
+    margin-bottom: 0px;
+}
+.ok1>p{
+
+    margin-top: 10px;
+}
+.ok2{
+
+ 
+    width: 405px;
+}
+
+.inputbox2{
+
+    height: 35px;
+    width: 400px;
+}
+
+.btnend{
+
+    margin-top: 10px;
+    height: 45px;
+    width: 210px;
+    
+}
 
 
