@@ -17,6 +17,7 @@
     height: fit-content;
     width: 90px;
     padding-left: 50px;
+    
 }
 
 
@@ -29,7 +30,7 @@
     ;
 }
 .heading{
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .inputbox{
@@ -134,10 +135,6 @@ button{
     margin-right: 10px;
 }
 
-.icon{
-
-     ;
-}
 
 .undertext{
 
@@ -191,4 +188,197 @@ button{
     
 }
 
+.footersection{
 
+    background-color: hsl(243, 87%, 12%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px;
+   
+
+
+
+
+}
+
+
+
+.part2,.part3,.socialicon{
+
+    list-style: none;
+    padding-top: 50px;
+    line-height: 25px;
+    color: white;
+}
+
+
+.icon{
+
+    width: 20px;
+    height: 20px;
+    color: white;
+   
+}
+
+.icon1,.icon2{
+
+    display: flex;
+    align-items: center;
+    text-indent: 10px;
+    color: white;
+    margin-left: 40px;
+    margin-top: 20px;
+
+    
+}
+
+.icon1{
+
+    height: 10px;
+}
+.icon2{
+    margin-top: 0px;
+}
+.socialicon{
+
+    width: 25px;
+}
+.part4{
+
+    word-spacing: 07px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .nav{
+
+        display: flex;
+        list-style-type:none;
+        text-indent:25px;
+    }
+
+    .logo{
+
+        padding-left: 5px;
+    }
+
+
+    .section1{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+    }
+
+    .img2{
+
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        margin-left: 50px;
+        margin-top: 50px;
+        height: fit-content;
+    }
+
+    .content_info{
+
+        
+        width: 350px;
+        font-family:Open Sans
+        ;
+    }
+
+    .inputbox{
+
+        display: block;
+        
+    }
+
+    .button{
+
+        
+    }
+
+    .contentinfo2{
+      
+        width: 400px;
+        font-family:Open Sans
+        ;
+    
+        
+    
+    }
+
+    .section3{
+
+        background-color:  hsl(238, 22%, 44%);
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .inputbox2{
+
+        height: 35px;
+        width: 240px;
+    }
+    
+    .btnend{
+    
+     
+        height: 40px;
+        width: 249px;
+        
+    }
+
+    
+    .footersection{
+    
+        background-color: hsl(243, 87%, 12%);
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+       
+    
+    
+    
+    
+    }
+
+    .section2{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top:100px ;
+    
+       
+    
+    
+    }
+    
+
+
+    .grid_container{
+        
+        width:100%;
+
+   
+
+
+
+
+        }
+
+
+
+    
+    
+    
+
+
+
+   
+
+
+}
